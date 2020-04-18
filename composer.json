@@ -1,0 +1,38 @@
+{
+    "name": "yosmy/phone-homemade-verification-process",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/phone-verification-code": "@dev",
+        "yosmy/phone-verification-process": "@dev",
+        "yosmy/error": "@dev",
+        "yosmy/http": "@dev",
+        "yosmy/phone-sms": "@dev"
+    },
+    "require-dev": {
+        "symfony/debug": "~4",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yosmy\\Test\\": [
+                "tests"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
